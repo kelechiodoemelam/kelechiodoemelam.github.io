@@ -1,0 +1,81 @@
+#loginform {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 200px;
+	text-align: center;
+	}
+
+body {
+	background: url("../img/background.jpg") no-repeat;
+	background-size: cover;
+}
+
+#regform {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 200px;
+	text-align: center;
+	font-family: Helvetica;
+	
+
+}
+
+body {
+	background: url("../img/background.jpg") no-repeat;
+	background-size: cover;
+	
+}
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/sail/Sail-Regular.otf);
+  }
+.transparent {
+zoom: 1;
+filter: alpha(opacity=50);
+opacity: 0.5;
+}
+h1 {
+	font-family: myFont;
+	font-size: 60px;
+	color: white;	
+	text-align: center;
+
+}
+
+h3 {
+	font-family: myFont;
+	font-size: 30px;
+	color: white;
+	margin-top: -20px;
+	text-align: center;
+
+}
+
+#form {
+	font-family: Helvetica;
+}
+
+.radius {
+	border-radius: 7px;
+}
+#loginmessage {
+	color:#ffffff;
+	font-size: 20px;
+	font-weight: bold;
+}
+#tokenmsg {
+	color:#ffffff;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: myFont;
+	font-size: 30px;
+	color: white;
+	margin-top: -20px;
+	text-align: center;
+
+}

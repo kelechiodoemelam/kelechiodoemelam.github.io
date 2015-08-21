@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  	<script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+    <script type="text/javascript" src="login.js"></script>
+  	<script type = "text/javascript" src = "eBookApp.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link type="text/css" rel="stylesheet" href="css/register.css"></link>
+  	<title>Dashboard</title>
+  </head>
+  <body>
+  	<h1>Dashboard</h1>
+    <h2 id="namer"> <span id = "username"></span> </h2>
+    <br>
+    <h3>Listed Books</h3>
+
+    <div id="regform">
+  	<button class="btn-success"><a href = "addEbook.html" id = "addBooks">Add Books</a></button>
+    <select id = "booklist">
+      <option value ="michael"></option>
+      <option value = ""></option>
+    </select>
+    <input type = "button" value = "Checkout Book" id = "checkout" onclick = "checkoutBook()" />
+    <input type = "button" value = "delete eBook" id = "delete" onclick = "deleteBooks()"/>
+    <br>
+    <br>
+    <br>
+    <div id = "result"></div>
+    <br>
+    <br>
+    <button class="btn-danger"><a href = "login.html" id = "addBooks">Log Out</a></button>
+    <button class="btn-warning"><a href = "forgotpassword.html" id = "addBooks">Forgot Password?</a></button>
+    <button class="btn-warning"><a href = "changepassword.html" id = "addBooks">Change Password</a></button>
+  </div>
+
+  </body>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+ </html>
+
+
+
+

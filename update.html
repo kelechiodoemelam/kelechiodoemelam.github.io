@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src = "https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+    <script type="text/javascript" src="register.js"></script>
+	<script type = "text/javascript" src = "ebookApp.js"></script>
+	<title>Add your eBook here</title>
+</head>
+<body>
+	<h1 id = "Add text">Update your eBooks here</h1>
+	<a href = "eBookApp.html" id = "goBack">Go back to Dashboard</a><br><br><br>
+	<label for = "username" id = "username">Username:</label>
+	<input type = "text" id = "user" autocomplete = "on"/><br><br><br><br>
+	<label for = "eBookname" id = "eBookname">Title of eBook: </label>
+	<input type = "text" id = "name" autocomplete = "on"/><br><br><br><br>
+	<label for = "ebookSite" id = "ebookSite">URL of eBook: </label>
+	<input type = "text" id = "url" autocomplete = "on"/><br><br><br><br>
+	<label for = "describe" id = "describe">Description: </label>
+	<textarea rows = "4" cols = "50" id = "description">Describe your books here</textarea><br>
+	<input type = "button" value = "Update" id = "add" onclick = "clickUpdate()" />
+
+</body>
+</html>
+
+
